@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Task 1: Link Stylesheet and Set Meta Tags -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Online CV of John Doe - Software Consultant, Author, and Trainer." />
+  <title>Online CV Larry Yi</title>
+
+  <!-- Importing Google Fonts for consistent and modern typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Adding icons with Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <!-- External CSS file (styles.css) for design and layout -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Task 4: Collect and Add Personal Information -->
+  <header>
+    <h1>Dongliang (Larry) Yi, CFA, FRM</h1>
+    <address>
+      <p><i class="fas fa-envelope"></i> <a href="mailto:dongliang.yi@outlook.com">dongliang.yi@outlook.com</a></p>
+      <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/dongliang-larry-yi/" target="_blank">LinkedIn Profile</a></p>
+    </address>
+  </header>
+
+  <!-- Main content of the CV -->
+  <main>
+    <!-- Task 4: Include Relevant Work History -->
+    <section id="summary">
+      <h2>Professional Summary</h2>
+      <p>Finance and analytics professional with 8+ years of experience across consumer lending, structured finance, and data analytics. Supported underwriting and pricing of $10M+ in monthly consumer loans; contributed to credit strategy, product optimization, and risk modeling. Managed valuation of $50B+ in fixed income assets and supported execution of 25+ securitization deals. Led 20+ analytics and dashboard projects using Python, SQL, Looker, and Microsoft Fabric to drive decision-making, automate reporting, and improve process efficiency by 60%. Piloted generative AI solutions (LLMs, agents, MCP) to enhance internal reporting, portfolio dashboards, and investor communications. Partnered with product, operations, and capital markets teams to translate data into strategic insights for senior leaders and institutional investors.</p>
+    </section>
+
+    <section id="experience">
+      <ul>
+        <h3>Work Experiences</h3>
+        <li>Director, Finance Analytics & Data Strategy, Car Capital, 2024 – Present</li>
+        <li>Analytics Manager, Finance & Capital Markets, Upstart, 2021 – 2024</li>
+        <li>Team Lead, Capital Markets & Portfolio Analytics, Aspen Capital, 2019 – 2021</li>
+        <li>Quantitative Investment Analyst, Modeling and Analytics, Security Benefit, 2017 – 2019</li>
+        <li>Unit Manager, Procter & Gamble, 2010 – 2014</li>
+        <li>IT Project Manager, IBM, 2009 – 2010</li>
+      </ul>
+    </section>
+
+    <!-- Task 5: Include Educational Details -->
+    <section id="education">
+      <ul>
+        <h3>Education</h3>
+        <li>Machine Learning Engineering, Springboard Data Science Bootcamp, 2022</li>
+        <li>M.S. in Financial Engineering, University of Illinois at Champaign-Urbana, 2016</li>
+        <li>M.S. in Computer Science, Shanghai Jiao Tong University, 2009</li>
+        <li>B.E. in Electrical Engineering, Jiangsu University, 2006</li>
+      </ul>
+    </section>
+
+    <!-- Task 6 (Work Experience Section) -->
+
+
+    <!-- Task 7: Include Skills and Their Proficiency -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>AProgramming: SQL, C/C++, Python, R, MATLAB, SAS, VBA, Apps Script</li>
+        <li>Data Warehouse: DBT, Databricks, Redshift</li>
+        <li>AI Tools: Cursor, LM Studio, OpenAI/Anthropic APIs, Prompt Engineering, Agent Workflows using MCP, NotebookLM, Gamma</li>
+        <li>Business Intelligence: Looker, Google Slides, Google Sheets, Excel, PowerPoint, Tableau, Power BI, Fabric</li>
+        <li>Financial Tools: Bloomberg, Intex, BondEdge, dv01, Trepp, Capital IQ, FactSet</li>
+        <li>Statistical Skills: Regression Analysis, Neural Network, Time Series Analysis, Hypothesis Testing, Data Analytics</li>
+        <li>Financial Modeling: Cash Flow Modeling, Waterfall Structures, Securitization, Sensitivity Analysis, Monte Carlo Simulation</li>
+      </ul>
+    </section>
+
+    <!-- Task 7: Include a List of Projects -->
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <ul>
+        <li>“Larry was my go to person and a trusted ally for complicated analysis and meeting extremely tight project deadlines. A very hard working and talented person. I am sure he will be an asset to any firm.” – Sirisha Mosalikanti, Aspen Capital</li>
+        
+      </ul>
+    </section>
+
+    <!-- Task 8: Use Forms to Gather Additional Information -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formsubmit.co/dongliang.yi@outlook.com" method="POST">
+        <!-- Collect name input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <!-- Collect email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+
+        <!-- Collect message input -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+        <!-- Submit button -->
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  
+  </main>
+</body>
+
+</html>

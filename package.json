@@ -1,0 +1,11 @@
+{
+    "name": "live-reload-server",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "npx browser-sync start --server --files 'index.html, styles.css' --no-open --no-notify --logLevel silent"
+    },
+    "devDependencies": {
+      "browser-sync": "^2.29.3"
+    }
+  }
+  
